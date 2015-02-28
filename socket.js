@@ -11,40 +11,42 @@ AWS.config.apiVersions = {
 
 var sns = new AWS.SNS();
 
-
-
-
 app.get('/',function(req,res){
 //    res.sendFile(__dirname+'/index.html');
 });
 
 io.on('connection', function(socket){
-  console.log('a user connected');
-  socket.on('disconnect', function(){
-    console.log('user disconnected');
-  });
+    console.log('a user connected');
     
-  socket.on('chat message', function(msg){
-    console.log('message: ' + msg);
-    this.broadcast.emit('chat message', msg);
-  });
-    
-  socket.on('registerSNS',function(msg){
-    console.log('a user registered>>'+msg);
-    var data = msg.split(";");
-    var params = {
-      PlatformApplicationArn: 'arn:aws:sns:us-east-1:924857743379:app/GCM/TripsTalker', /* required */
-  //          Token: 'APA91bG3ZJgcHLW9YhNXyjPZ-WNZWUW6QYO_lE9O6zDW7fTQZhsFvWMNmCH2Gos08Sh8MwIJiVMEE8cF5peXBA4vDst6Rsq3tM2sAhy8L-lF9-gcixELD8QADODlY0lB_jXIotKhdqzRO9KtvHVCRn30UBY5PKlj0A_fh2tptqOjJvRyxJA-1Tw', /* required */
-      Token: data[0],
-      CustomUserData: data[1]
-    };
-
-    sns.createPlatformEndpoint(params, function(err, data) {
-      if (err) console.log(err, err.stack); // an error occurred
-      else     console.log(data);           // successful response
+    socket.on('disconnect', function(){
+        console.log('user disconnected');
     });
 
-  })
+    socket.on('chat message', function(msg){
+        console.log('message: ' + msg);
+        this.broadcast.emit('chat message', msg);
+    });
+    
+    socket.on('registerSNS',function(msg){
+        console.log('SNS user registered>>'+msg);
+        var data = msg.split(";");
+        var params = {
+            PlatformApplicationArn: 'arn:aws:sns:us-east-1:924857743379:app/GCM/TripsTalker', /* required */
+            Token: data[0],
+            CustomUserData: data[1]
+        };
+
+        sns.createPlatformEndpoint(params, function(err, data) {
+            if (err) console.log(err, err.stack); // an error occurred
+            else     console.log(data);           // successful response
+        });
+    });
+    
+    socket.on('createRoom',function(data){
+        var room = JSON.parse(data);
+        console.log('createRoom >> '+data);
+    });
+    
 });
 
 http.listen(3000,function(){
