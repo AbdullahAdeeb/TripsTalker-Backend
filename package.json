@@ -1,0 +1,14 @@
+{
+  "name": "trips-talker-socketio",
+  "version": "0.0.1",
+  "description": "trips talker soscketio",
+  "dependencies": {
+    "aws-sdk": "~2.1.8",
+    "express": "~4.10.1",
+    "http": "0.0.0",
+    "mongodb": "~1.4.26",
+    "mongoose": "~3.8.24",
+    "node-gcm": "~0.9.12",
+    "socket.io": "^1.3.5"
+  }
+}

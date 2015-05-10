@@ -1,0 +1,112 @@
+listening on baramejapps.com:3000
+MongoDB: Connection Opened
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+sending to room: undefined
+room message: undefined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+a user connected
+Hello World is sent
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+sending to room: undefined
+room message: undefined
+sending to room: undefined
+room message: undefined
+user disconnected
+disconnect(id) failed: User id is not defined
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+user disconnected
+disconnect(id) failed: User id is not defined
+a user connected
+sending to room: 123
+room message: hello
