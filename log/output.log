@@ -1,112 +1,2595 @@
 listening on baramejapps.com:3000
 MongoDB: Connection Opened
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-sending to room: undefined
-room message: undefined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+
+sending to: 554e65f88c632bf82e8b4567  message:hello
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:sksksks
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:asdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:asdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:asd
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:asf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:asdfasdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:asdfa
+
+
+sending to: 554e65f88c632bf82e8b4567  message:asdsdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:adfaf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:asdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:fasdf
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:asdasd
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 554e65f88c632bf82e8b4567  message:sdfafff
+
+
+sending to: 554e65f88c632bf82e8b4567  message:bismilah
+
+
+sending to: 554e65f88c632bf82e8b4567  message:il7amdoulila
+
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
 Hello World is sent
-user disconnected
-disconnect(id) failed: User id is not defined
-a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
-a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
-a user connected
-sending to room: undefined
-room message: undefined
-sending to room: undefined
-room message: undefined
-user disconnected
-disconnect(id) failed: User id is not defined
-user disconnected
-disconnect(id) failed: User id is not defined
-a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
-user disconnected
-disconnect(id) failed: User id is not defined
 a user connected
-sending to room: 123
-room message: hello
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+a user connected
+a user connected
+
+sending to:   message:message
+
+
+sending to:   message:type
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+
+sending to: 554e65f88c632bf82e8b4567  message:yellow
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:hmmm 
+
+
+sending to: 554e65f88c632bf82e8b4567  message:okay now we are talking
+
+
+sending to: 554e65f88c632bf82e8b4567  message:yes we definitly are
+
+
+sending to: 54f275828c632b65478b4568  message:anybody there?
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+
+sending to: 5544fed58c632b1f5b8b4568  message:type
+
+
+sending to: 5544fed58c632b1f5b8b4568  message:
+
+
+sending to: 5544fed58c632b1f5b8b4568  message:hggg jh
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+register pushID>>0
+browser has no push ID
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+register pushID>>0
+browser has no push ID
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+
+sending to: 554e65f88c632bf82e8b4567  message:hello there
+
+
+sending to: 554e65f88c632bf82e8b4567  message:
+
+a user connected
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+
+sending to: 5544fed58c632b1f5b8b4568  message:hi
+
+
+sending to: 5544fed58c632b1f5b8b4568  message:
+
+
+sending to: 5544fed58c632b1f5b8b4568  message:
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register pushID>>0
+browser has no push ID
+
+sending to: 54f275828c632b65478b4568  message:hey
+
+
+sending to: 54f275828c632b65478b4568  message:
+
+
+sending to: 54f275828c632b65478b4568  message:haha yep
+
+
+sending to: 54f275828c632b65478b4568  message:
+
+
+sending to: 54f275828c632b65478b4568  message:drew u here
+
+
+sending to: 54f275828c632b65478b4568  message:her's not
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 54f275828c632b65478b4568  message:hi
+
+
+sending to: 54f275828c632b65478b4568  message:you hsould see this
+
+
+sending to: 54f275828c632b65478b4568  message:hello
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+register pushID>>0
+browser has no push ID
+-1 << disconnected
+Disconnect ERROR: userID = -1
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+a user connected
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register pushID>>0
+browser has no push ID
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register pushID>>0
+browser has no push ID
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+
+sending to: 5544fed58c632b1f5b8b4568  message:hi
+
+
+sending to: 5544fed58c632b1f5b8b4568  message:
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+
+sending to: 54f275828c632b65478b4568  message:gi
+
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+-1 << disconnected
+Disconnect ERROR: userID = -1
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+
+sending to: 5544fed58c632b1f5b8b4568  message:hi
+
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+a user connected
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+-1 << disconnected
+Disconnect ERROR: userID = -1
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+a user connected
+register userID>> 14
+Connect: userId is defined 14, starting connect function
+
+
+
+joining rooms 1>>
+register pushID>>0
+browser has no push ID
+14 << disconnected
+Disconnect: userId is defined 14, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+register pushID>>0
+browser has no push ID
+joining rooms 2>>
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register pushID>>0
+browser has no push ID
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+a user connected
+register userID>> 15
+Connect: userId is defined 15, starting connect function
+
+
+
+joining rooms 2>>
+15 >> conntected to room: 5544fed58c632b1f5b8b4568
+15 << disconnected
+Disconnect: userId is defined 15, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+register userID>> 13
+Connect: userId is defined 13, starting connect function
+
+
+
+joining rooms 2>>
+13 >> conntected to room: 54f275828c632b65478b4568
+13 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+13 << disconnected
+Disconnect: userId is defined 13, starting disconnect function
+
+
+
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+register pushID>>0
+browser has no push ID
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+register userID>> 8
+Connect: userId is defined 8, starting connect function
+
+
+
+joining rooms 1>>
+8 >> conntected to room: 54f275828c632b65478b4568
+8 << disconnected
+Disconnect: userId is defined 8, starting disconnect function
+
+
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+-1 << disconnected
+Disconnect ERROR: userID = -1
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>APA91bGFpoZiLtHsa7AkJHKg3Cn-2SJBWXPg7_zDYOW5chXafDRbiQpuQ-qxblQVvdWbevanKZX2W_GRGASwYf1aH3UU4_tnR6pWHk7Nbz4LMj71coZqoB0C1thsM6VH_a8ngmQrgEN6aOU2QMpCCmfZnvWTCVy7JA
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>APA91bGFpoZiLtHsa7AkJHKg3Cn-2SJBWXPg7_zDYOW5chXafDRbiQpuQ-qxblQVvdWbevanKZX2W_GRGASwYf1aH3UU4_tnR6pWHk7Nbz4LMj71coZqoB0C1thsM6VH_a8ngmQrgEN6aOU2QMpCCmfZnvWTCVy7JA
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>APA91bGFpoZiLtHsa7AkJHKg3Cn-2SJBWXPg7_zDYOW5chXafDRbiQpuQ-qxblQVvdWbevanKZX2W_GRGASwYf1aH3UU4_tnR6pWHk7Nbz4LMj71coZqoB0C1thsM6VH_a8ngmQrgEN6aOU2QMpCCmfZnvWTCVy7JA
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+register pushID>>APA91bGFpoZiLtHsa7AkJHKg3Cn-2SJBWXPg7_zDYOW5chXafDRbiQpuQ-qxblQVvdWbevanKZX2W_GRGASwYf1aH3UU4_tnR6pWHk7Nbz4LMj71coZqoB0C1thsM6VH_a8ngmQrgEN6aOU2QMpCCmfZnvWTCVy7JA
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+register pushID>>0
+browser has no push ID
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+register pushID>>0
+browser has no push ID
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 19
+Connect: userId is defined 19, starting connect function
+
+
+
+joining rooms 0>>
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+register userID>> 1
+Connect: userId is defined 1, starting connect function
+
+
+
+joining rooms 5>>
+1 >> conntected to room: 54f275828c632b65478b4568
+1 >> conntected to room: 54f27c308c632b06478b4569
+register pushID>>0
+browser has no push ID
+19 << disconnected
+Disconnect: userId is defined 19, starting disconnect function
+
+
+
+a user connected
+1 << disconnected
+Disconnect: userId is defined 1, starting disconnect function
+
+
+

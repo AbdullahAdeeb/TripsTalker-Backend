@@ -1,0 +1,48 @@
+Missing error handler on `socket`.
+ReferenceError: data is not defined
+    at Socket.<anonymous> (/var/TripsTalker-Backend/socket.js:142:20)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+Missing error handler on `socket`.
+ReferenceError: data is not defined
+    at Socket.<anonymous> (/var/TripsTalker-Backend/socket.js:142:20)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+Missing error handler on `socket`.
+ReferenceError: data is not defined
+    at Socket.<anonymous> (/var/TripsTalker-Backend/socket.js:142:20)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+Missing error handler on `socket`.
+ReferenceError: data is not defined
+    at Socket.<anonymous> (/var/TripsTalker-Backend/socket.js:142:20)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/var/TripsTalker-Backend/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/var/TripsTalker-Backend/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/var/TripsTalker-Backend/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)

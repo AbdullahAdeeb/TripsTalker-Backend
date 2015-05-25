@@ -1,1 +1,1 @@
-forever restart 1
+forever restart 0

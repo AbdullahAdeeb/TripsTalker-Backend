@@ -71,44 +71,72 @@ var rooms = mongoose.model('testing', {name: String, admin: Number, loc: String,
 
 //io.set('origins','*');
 io.on('connection', function(socket){
-  //  var userRooms = new Array();
     console.log('a user connected');
-    var id =-1;
+    socket.userId = -1;
+    
+	
+    //-----------------------
+    //      DISCONNECT
+    //-----------------------
     socket.on('disconnect', function(){
-        console.log('user disconnected');
+        console.log(socket.userId+' << disconnected');
 		
 		//modify mongodb rooms database to move user into disconnected
-		if(!disconnect(id))
-		{
-			console.log("disconnect(id) failed: User id is not defined");
-		}
+		disconnect(socket.userId);
+		
     });
 
     //-----------------------
     //      CHAT MESSAGE
     //-----------------------
-    socket.on('chat message', function(msg){
-        console.log('message: ' + msg);
-        this.broadcast.emit('chat message', msg);
-    });
+//    socket.on('chat message', function(msg){
+//        console.log('message: ' + msg);
+//        this.broadcast.emit('chat message', msg);
+//    });
+    
+    //-----------------------
+    //      JOIN ROOM
+    //-----------------------
+//    socket.on('join room', function(data){
+//        console.log('joining room: '+data.roomID);
+//        this.join(data.roomID);
+//    });
     
     //-----------------------
     //      ROOM MESSAGE
     //-----------------------
-    socket.on('room message', function(object){
-        console.log('sending to room: '+object.room);
-        console.log('room message: '+object.msg);
-        this.to(object.room).emit('room message',object);
+    socket.on('room message', function(data){
+        console.log('\nsending to: '+data.roomID+"  message:"+data.msg+"\n");
+        
+    	socket.to(data.roomID).emit('room message',data);
+
+        // send message to disconnected devices
     });
     
-    //-----------------------
-    //      REGISTER
-    //-----------------------
-    socket.on('register',function(msg){
-        console.log('user registered>>'+msg);
-        var data = msg.split(";");
-		id = data[1];
-		console.log("user id defined: "+id);
+    //-------------------------------------
+    //      REGISTER USER ID / JOIN ROOMS
+    //-------------------------------------
+    socket.on('register userID',function(msg){
+        console.log('register userID>> '+msg.userID);
+		socket.userId = msg.userID;
+
+		//modify mongodb rooms database to move user into connected
+		connect(socket.userId, socket);
+    });
+    
+    //--------------------------
+    //      REGISTER PUSH TOKEN
+    //--------------------------
+    socket.on('register pushID',function(msg){
+        console.log('register pushID>>'+msg.pushID);
+        
+        // if the user is on browser the push ID will be ignored
+        if(msg.pushID === 0){
+            console.log('browser has no push ID');
+            return true;
+        }
+        
+        // register the push id/token with SNS
         var params = {
             PlatformApplicationArn: 'arn:aws:sns:us-east-1:924857743379:app/GCM/TripsTalker', /* required */
             Token: data[0],
@@ -118,14 +146,7 @@ io.on('connection', function(socket){
         sns.createPlatformEndpoint(params, function(err, data) {
             if (err) console.log(err, err.stack); // an error occurred
             else     console.log(data);           // successful response
-        });
-		
-		//modify mongodb rooms database to move user into connected
-		if(!connect(id, socket))
-		{
-			console.log("connect(id) failed: User id is not defined");
-		}
-		
+        });		
     });
     
     //-----------------------
@@ -145,85 +166,50 @@ http.listen(3000,function(){
 });
 
 //Remove user from disconnect list and place in connect list
-function connect(id, socket)
-{
-	
-	if(id!=-1)
-	{
-		console.log("Connect: userId is defined "+id+", starting connect function");
-		
-		rooms.find({$or:[{admin:id}, {members:id}]},function(err, users){
-			
-			for(var i =0;i<users.length;i++)
-			{
-				
-
-				var index = users[i].disconnected.indexOf(id);
-				if(index>-1)
-				{
-                    //join user into each channel they are apart of
-                    console.log("User "+id+" joining room "+users[i]._id);
-                    socket.join(users[i]._id);
-					users[i].disconnected.splice(index, 1);
-					users[i].connected.push(id);
-					users[i].save();
-					console.log("Room Connect: connected userId:"+id+" to room "+users[i].name);
-				}
-				
-
+function connect(userId, socket){
+	if(userId!=-1){
+		console.log("Connect: userId is defined "+userId+", starting connect function");
+		rooms.find({$or:[{admin:userId}, {members:userId}]},function(err, result){
+			console.log("joining rooms "+result.length+">>");
+			for(var i = 0; i < result.length; i++){
+                socket.join(result[i]._id);
+				var index = result[i].disconnected.indexOf(userId);
+				if(index>-1){
+                    console.log(userId+" >> conntected to room: "+result[i]._id);
+                    //join user into each room they are apart of
+					result[i].disconnected.splice(index, 1);
+					result[i].connected.push(userId);
+					result[i].save();
+				}	
 			}
-			//console.log("\n\nUPDATA DATA:");	
-			//console.log(""+users);
-
-        
-        
-       
-			// console.log("disconnected: "+users[0].disconnected);
 		});
-	}
-	else
-	{
+        console.log("\n\n");
+        return true;
+	}else{
+        console.log("Connect ERROR: userID = -1");
 		return false;
 	}
-     
 }
+
 //Remove user from connect list and place in disconnect list
-function disconnect(id)
-{
-	if(id!=-1)
-	{
-		console.log("Disconnect: userId is defined "+id+", starting disconnect function");
+function disconnect(userId){
+	if(userId!=-1){
+		console.log("Disconnect: userId is defined "+userId+", starting disconnect function");
 		//var rooms = mongoose.model('testing', {name: String, admin: Number, loc: String, members: [Number], connected:[Number], disconnected: [Number]}, 'rooms');
-		rooms.find({$or:[{admin:id}, {members:id}]},function(err, users){
-			
-		   
-			for(var i =0;i<users.length;i++)
-			{
-				
-
-				var index = users[i].connected.indexOf(id);
-				if(index>-1)
-				{
+		rooms.find({$or:[{admin:userId}, {members:userId}]},function(err, users){		   
+			for(var i =0;i<users.length;i++){
+				var index = users[i].connected.indexOf(userId);
+				if(index>-1){
 					users[i].connected.splice(index, 1);
-					users[i].disconnected.push(id);
+					users[i].disconnected.push(userId);
 					users[i].save();
-					console.log("Room Disconnect: disconnected userId:"+id+" from room "+users[i].name);
-
 				}
-				
-
-			}
-			//console.log("\n\nUPDATA DATA:");	
-			//console.log(""+users);
-
-			
-			
-		   
-		   // console.log("disconnected: "+users[0].disconnected);
+			}		   
 		});
-	}
-	else
-	{
+        console.log("\n\n");
+        return true;
+	}else{
+        console.log("Disconnect ERROR: userID = -1");
 		return false;
 	}
 }
